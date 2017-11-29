@@ -145,8 +145,34 @@ footer {
 /* Screen size changes */
 
 /* Desktop */
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 1025px) {
   .mobile-nav {
     display: none;
   }
+}
+
+/* Tablet */
+@media only screen and (max-width: 1024px) and (min-width: 471px) {
+  #nav-menu {
+    display: none;
+  }
+  .mobile-nav {
+    display: block;
+      text-align: center;
+  }
+    .products {
+    width: 47%;
+  }
+  .gear {
+    flex-wrap: wrap;
+  }
+
+  #glasses {
+    display: none;
+  }
+}
+
+/* Phone screens */
+@media only screen and (max-width: 470px) {
+
 }
