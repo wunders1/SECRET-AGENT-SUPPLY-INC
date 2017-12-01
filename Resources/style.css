@@ -174,5 +174,43 @@ footer {
 
 /* Phone screens */
 @media only screen and (max-width: 470px) {
+  .banner {
+    height: 15rem;
+  }
 
+  #nav-menu {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: block;
+    text-align: center;
+  }
+
+  .products {
+  width: 90%;
+  margin: auto;
+  }
+
+  #glasses, #watch {
+  display: none;
+  }
+
+  .headline {
+    width: 100%;
+    margin-top:10rem;
+    padding: 1rem 2rem;
+  }
+
+  .headline h4 {
+    font-size: .77rem;
+  }
+
+  .headline h1 {
+    font-size: 1rem;
+  }
+
+  footer {
+    text-align: center;
+  }
 }
